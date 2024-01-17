@@ -1,8 +1,8 @@
 <script lang="ts">
-
+import Route from "./Route.svelte";
 </script>
 <main>
-<h1>Hola Mundo</h1>
+  <Route />
 </main>
 
 <style>
