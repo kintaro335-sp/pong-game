@@ -6,7 +6,7 @@ export function initPongGame() {
     canvas: document.getElementById('pong-game') as HTMLCanvasElement,
     background: [0, 0, 0],
     global: false,
-    width: 500,
+    width: 600,
     height: 500,
     debug: true,
     maxFPS: 60,
