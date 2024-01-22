@@ -41,7 +41,6 @@ export function initBall(k: KaboomCtx) {
     ball.trajectory = deviation + 90;
   });
   ball.onCollide('wall', () => {
-    ball.trajectory *= -1;
     ball.trajectory += 180;
   });
 

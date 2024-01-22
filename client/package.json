@@ -20,6 +20,8 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "kaboom": "^3000.1.17"
+    "axios": "^1.6.5",
+    "kaboom": "^3000.1.17",
+    "socket.io-client": "^4.7.4"
   }
 }
